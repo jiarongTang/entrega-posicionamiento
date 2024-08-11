@@ -31,6 +31,7 @@
     border-color: #9ad79b;
     border-width: 1px;
     border-style: dashed;
+    width: 100%;
     padding: 10px;
     margin-top: 10px;
     position:relative;
@@ -50,13 +51,23 @@
   }
 
   aside {
-    width: 150px;
+    width: 110px;
     border-color: #9ad79b;
     border-width: 1px;
     border-style: dashed;
     padding: 10px 0px 10px 20px;
     margin: 100px 10px 10px 10px;
     position: relative;
-    left: view-port;
+    left: 81%;
     z-index: 0;
   }
+
+  aside > h3 {
+    font-size: 0.8em;
+  }
+
+  aside > ul {
+    font-size: 0.7em;
+  }
+
+  
