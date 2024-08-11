@@ -14,3 +14,35 @@
     background-color: #000000;
     color: #9ad79b;
   }
+
+  header {
+    border-color: #9ad79b;
+    border-width: 1px;
+    border-style: dashed;
+    font-size: 0.7em;
+    padding: 10px;
+    position: sticky;
+  }
+
+  main  section {
+    border-color: #9ad79b;
+    border-width: 1px;
+    border-style: dashed;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .content h2 {
+    font-size: 1.1em;
+  }
+  .content p {
+    font-size: 0.8em;
+  }
+
+  .content button{
+    font-size: 0.7em;
+  }
+
+  aside {
+    margin-top: 9000px;
+  }
