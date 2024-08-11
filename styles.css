@@ -21,7 +21,7 @@
     border-style: dashed;
     font-size: 0.7em;
     padding: 10px;
-    width: 100%;
+    width: 100vw;
     background-color: black;
     position: fixed;
     z-index: 1;
@@ -31,7 +31,7 @@
     border-color: #9ad79b;
     border-width: 1px;
     border-style: dashed;
-    width: 100%;
+    width: 100vw;
     padding: 10px;
     position:relative;
     top: 70px;
@@ -57,7 +57,7 @@
     padding: 10px 0px 10px 20px;
     margin: 90px 10px 20px 10px;
     position: relative;
-    left: 81%;
+    left: 91vw;
     z-index: 0;
   }
 
@@ -73,10 +73,11 @@
     border-color: #9ad79b;
     border-width: 1px;
     border-style: dashed;
-    width: 100%;
+    width: 100vw;
     text-align: center;
     margin-top: 10px;
     padding: 10px;
+    position: absolute;
   }
 
   .features > h2 {
@@ -89,4 +90,15 @@
 
   .feature > button {
     font-size: 0.8em;
+  }
+
+  footer {
+    border-color: #9ad79b;
+    border-width: 1px;
+    border-style: dashed;
+    width: 100vw;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    top:100vh;
   }
