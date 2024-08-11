@@ -27,13 +27,12 @@
     z-index: 1;
   }
 
-  main > section {
+  .content {
     border-color: #9ad79b;
     border-width: 1px;
     border-style: dashed;
     width: 100%;
     padding: 10px;
-    margin-top: 10px;
     position:relative;
     top: 70px;
     z-index: 0;
@@ -50,24 +49,44 @@
     font-size: 0.7em;
   }
 
-  aside {
+  .sidebar {
     width: 110px;
     border-color: #9ad79b;
     border-width: 1px;
     border-style: dashed;
     padding: 10px 0px 10px 20px;
-    margin: 100px 10px 10px 10px;
+    margin: 90px 10px 20px 10px;
     position: relative;
     left: 81%;
     z-index: 0;
   }
 
-  aside > h3 {
+  .sidebar > h3 {
     font-size: 0.8em;
   }
 
-  aside > ul {
+  .sidebar > ul {
     font-size: 0.7em;
   }
 
-  
+  .features {
+    border-color: #9ad79b;
+    border-width: 1px;
+    border-style: dashed;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  .features > h2 {
+    font-size: 1.1em;
+  }
+
+  .features > div {
+    font-size: 0.8em;
+  }
+
+  .feature > button {
+    font-size: 0.8em;
+  }
